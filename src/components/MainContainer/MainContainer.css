@@ -1,0 +1,16 @@
+.mainContainer {
+    width: 50vh;
+    align-items: center;
+    margin-left: 13%;
+}
+
+@media(max-width: 768px) {
+    .mainPage {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mainContainer {
+        width: auto;
+    }
+}

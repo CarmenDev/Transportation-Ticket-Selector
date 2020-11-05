@@ -1,0 +1,73 @@
+.decisionTreeContainer {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.decisionTreeContainer .stepContent {
+    margin: auto auto 1em 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.decisionTreeContainer .stepContent .buttonContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.decisionTreeContainer h4 {
+    margin-bottom: 1em;
+}
+
+.decisionTreeContainer input[type=number] {
+    width: 40%;
+    min-width: 12em;
+    padding: 0.5em 1em;
+    box-sizing: border-box;
+    margin-bottom: 2em;
+}
+
+.decisionTreeContainer .stepContent .buttonContainer button {
+    width: 12em;
+    height: 2em;
+    margin-bottom: 2em;
+    color: black;
+    background: #fff;
+    border: 1px black solid;
+    border-radius: 12px;;
+}
+
+.decisionTreeContainer .stepContent .buttonContainer button:hover {
+    border: none;
+    color: #fff;
+    background: #3F83F1;
+}
+
+.decisionTreeContainer .stepContent .buttonContainer button.backButton {
+    color: black;
+    background: #fff;
+    border: 1px black solid;
+    border-radius: 12px;
+}
+
+.decisionTreeContainer .stepContent .buttonContainer button.backButton:hover {
+    color: #fff;
+    border: none;
+    background: #f15a3f;
+}
+
+@media(max-width: 768px) {
+    .decisionTreeContainer {
+        align-items: center;
+
+    }
+
+    .decisionTreeContainer * {
+        margin: auto;
+    }
+
+    .decisionTreeContainer input[type=text] {
+        width: 80%
+    }
+}
